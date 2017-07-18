@@ -232,16 +232,11 @@ var arrayDatos = [
 ];
  
  var html = "";
- var direc = "";
  for (var i =0; i<arrayDatos.length;i++)
  {
  	var dato_1 = arrayDatos[i];
  	//alert (dato_1);
- 	var s = 
-  "<div>" + 
-  "<h1>" + "Nombre: "+  dato_1.name + "</h1>" + 
-  "<h2>" +  "Direccion: "dato_1.address.street + "</h2>" +
-   "</div>";
+ 	var s = "<div>" + "<h1>" + "Nombre: "+  dato_1.name + "</h1>" + "<h2>" +  "Direccion: "+dato_1.address.street + "</h2>" +"</div>";
  	  html += s;
  
  }
